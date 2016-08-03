@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New York Times Search</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="jumbotron">
+		<span class="glyphicons glyphicons-newspaper"></span>
+		<h1>New York Times Search</h1>
+	</div>
+	<div class="panel panel-primary" id="search">
+		<h3>Search Term:</h3>
+		<input type="text" class="form-control" placeholder="Text input" id="term">
+		<h3>Number of Records to Retrieve:</h3>
+		<select class="form-control" id="records">
+			 <option>10</option>
+			 <option>20</option>
+			 <option>30</option>
+		</select>
+		<h3>Start Year Optional:</h3>
+		<input type="text" class="form-control" placeholder="Text input" id="start">
+		<h3>End Year Optional:</h3>
+		<input type="text" class="form-control" placeholder="Text input" id="end">
+		<button type="button" class="btn ban-default" id="submit">Submit
+		</button>
+		<button type="button" class="btn ban-default" id="clear">Clear</button>
+
+	</div>
+
+
+	<div class="panel panel-primary" id="results">
+		<div class="well well-lg" id="article">...</div>
+	</div>
+
+
+
+</body>
+</html>
